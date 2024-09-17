@@ -1,0 +1,37 @@
+.Sidebar {
+    margin: 20px;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.sidebar-menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    list-style: none;
+    outline: none;
+
+}
+.menu-item {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #84d343; 
+}
+
+.menu-item a {
+    
+    padding: 15px 20px;
+    color: #000000;
+    text-decoration: none;
+    transition: transform 0.4s ease;
+}
+
+.menu-item a:hover {
+    transform: translateY(-3px);
+    color: #84d343;
+    
+}
+
+

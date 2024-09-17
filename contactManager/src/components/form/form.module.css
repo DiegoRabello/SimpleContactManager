@@ -1,0 +1,164 @@
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  height: 50vh;
+  margin: 20px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.text {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.text h2 {
+  font-size: 3em;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.text p {
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 20px;
+}
+
+.form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s, transform 0.4s ease;
+}
+
+.form input:hover {
+  border-color: #45a049;
+  transform: translateY(-3px);
+}
+
+.form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #7bdf42;
+  transform: translateY(-3px);
+}
+
+.listContacts {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.listContacts h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  color: #555;
+  text-align: center;
+}
+
+.listbutton {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.listbutton:hover {
+  background-color: #7bdf42;
+  transform: translateY(-3px);
+}
+
+.elementDivider {
+  width: 100%; 
+  height: 1px; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  margin: 20px 0; 
+  transition: border-bottom 0.3s ease; 
+}
+
+.elementDivider:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.contactList {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.contactList li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 12px; 
+  padding: 16px; 
+  margin-bottom: 12px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactList li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.deleteButton {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.deleteButton:hover {
+  background-color: #c0392b;
+  transform: translateY(-3px);
+}
+
+.editButton {
+  margin-left: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease,transform 0.3s ease;
+}
+.editButton:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+}
