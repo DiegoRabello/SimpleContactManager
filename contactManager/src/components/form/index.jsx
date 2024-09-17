@@ -96,7 +96,7 @@ export function ContactForm() {
                     <strong>Telefone:</strong> {contact.phone}
                   </div>
 
-                  <div>
+                  <div className={styles.buttons}>
                     <button className={styles.deleteButton} onClick={() => handleDelete(contact.name)}>
                       Deletar
                     </button>

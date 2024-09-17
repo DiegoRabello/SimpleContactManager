@@ -29,16 +29,16 @@ createContact: (contact) => {
 
     return localStorage.setItem(DB_KEY, JSON.stringify([newContact]));
 },
- deleteContact: (contactName) => {
+deleteContact: (contactName) => {
     const storage = localStorage.getItem(DB_KEY);
     if (storage) {
-      const contacts = JSON.parse(storage);
-      const updatedContacts = contacts.filter(
+        const contacts = JSON.parse(storage);
+        const updatedContacts = contacts.filter(
         (contact) => contact.name !== contactName
       );
       localStorage.setItem(DB_KEY, JSON.stringify(updatedContacts));
     }
-  },
+},
 
 updateTaskState: (taskDescription) => {
     const storage = localStorage.getItem(DB_KEY);
